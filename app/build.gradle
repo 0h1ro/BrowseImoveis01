@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.fieb.browseimoveis01"
-        minSdk 21
+        minSdk 22
         targetSdk 31
         versionCode 1
         versionName "1.0"
