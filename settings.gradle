@@ -1,0 +1,18 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+//        google()
+//        mavenCentral()
+//        jcenter() // Warning: this repository is going to shut down soon
+        maven{
+            url 'http://repoandroid:8081/repository/maven-public/'
+            allowInsecureProtocol=true
+            credentials{
+                username 'android'
+                password '123456'
+            }
+        }
+    }
+}
+rootProject.name = "BrowseImoveis01"
+include ':app'
