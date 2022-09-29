@@ -8,12 +8,41 @@
     android:orientation="vertical"
     tools:context=".BrowseLogin">
 
-  <ImageView
-      android:id="@+id/browse"
-      android:layout_width="wrap_content"
-      android:layout_height="300dp"
-      android:src="@drawable/browsefund" />
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:gravity="bottom"
+      android:layout_gravity="center_vertical"
+      android:foregroundGravity="bottom"
+      >
 
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+      android:elevation="16dp"
+      app:cardCornerRadius="16dp">
+
+      <ImageView
+          android:id="@+id/browse"
+          android:fitsSystemWindows="true"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:textAlignment="gravity"
+          android:src="@drawable/logo" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
 
   <androidx.coordinatorlayout.widget.CoordinatorLayout
       android:layout_width="match_parent"
@@ -74,11 +103,12 @@
     app:cardCornerRadius="60dp"
     android:layout_gravity="center"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    />
 
   <androidx.appcompat.widget.AppCompatButton
       android:layout_gravity="center"
-      android:id="@+id/appCompatButton"
+
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/text_cadastro"
@@ -86,8 +116,6 @@
       android:textSize="18sp"
       android:textStyle="bold"
       style="@style/barra_fund" />
-
-</androidx.cardview.widget.CardView>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -3,12 +3,23 @@ package com.fieb.browseimoveis01;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class BrowseLogin extends AppCompatActivity {
+import com.google.firebase.auth.FirebaseAuth;
+
+public class BrowseLogin<textView> extends AppCompatActivity {
+
+    private textView text_tela_cadastro;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse_login);
+
+        getSupportActionBar().hide();
+
+        text_tela_cadastro.set
+
+    }
+
     }
 }
