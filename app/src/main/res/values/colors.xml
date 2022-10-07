@@ -14,4 +14,11 @@
     <color name="cinza">#99FFFFFF</color>
     <color name="orange">#F3822C</color>
 
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="begeclaro">#FFF4D3</color>
+    <color name="begeescurin">#FFEAA9</color>
+    <color name="ultimacor">#F7D56E</color>
+    <color name="textwelcome">#271F07</color>
+
 </resources>

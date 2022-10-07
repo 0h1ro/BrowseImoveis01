@@ -17,9 +17,9 @@ public class BrowseLogin<textView> extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        text_tela_cadastro.set
 
-    }
+
+
 
     }
 }
