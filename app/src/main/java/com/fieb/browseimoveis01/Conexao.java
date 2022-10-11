@@ -33,17 +33,6 @@ public class Conexao {
 
     }
 
-    public static void logar(String email, String senha){
 
-        try{
-
-            PreparedStatement pst = Conexao.conectar().prepareStatement("" +
-                    "Select ");
-
-        }catch(SQLException e) {
-            e.getMessage();
-        }
-
-    }
 
 }

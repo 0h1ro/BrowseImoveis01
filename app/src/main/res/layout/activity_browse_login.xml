@@ -107,15 +107,17 @@
     />
 
   <androidx.appcompat.widget.AppCompatButton
-      android:layout_gravity="center"
+      android:id="@+id/bt_cadastro"
 
+      style="@style/barra_fund"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:padding="16dp"
       android:text="@string/text_cadastro"
       android:textColor="@color/black"
       android:textSize="15dp"
-      android:textStyle="bold"
-      style="@style/barra_fund" />
+      android:textStyle="bold" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
