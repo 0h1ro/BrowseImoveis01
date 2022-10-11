@@ -2,4 +2,6 @@
     <string name="app_name">BrowseImoveis01</string>
     <string name="entrar">Entrar</string>
     <string name="text_cadastro"> Crie uma conta clicando aqui </string>
+    <string name="Consultar_Visitas">Consultar visitas</string>
+    <string name="text_bemvindo">Obrigado por agendar uma visita com a nossa equipe</string>
 </resources>
