@@ -1,17 +1,17 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
-        google()
-        mavenCentral()
+//        google()
+//        mavenCentral()
 
-//        maven{
-//            url 'http://repoandroid:8081/repository/maven-public/'
-//            allowInsecureProtocol=true
-//            credentials{
-//                username 'android'
-//                password '123456'
-//            }
-//        }
+        maven{
+            url 'http://repoandroid:8081/repository/maven-public/'
+            allowInsecureProtocol=true
+            credentials{
+                username 'android'
+                password '123456'
+            }
+        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"
