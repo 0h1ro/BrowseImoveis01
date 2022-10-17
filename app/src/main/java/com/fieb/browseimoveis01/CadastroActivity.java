@@ -16,6 +16,6 @@ public class CadastroActivity extends AppCompatActivity {
 
         site = findViewById(R.id.webView);
 
-        site.loadUrl("https://www.google.com");
+        site.loadUrl("http://www.browseimoveis.mytcc.com.br");
     }
 }
