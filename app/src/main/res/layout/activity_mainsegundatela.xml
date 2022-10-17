@@ -30,6 +30,7 @@
         app:layout_constraintTop_toBottomOf="@id/logo" />
 
     <Button
+        android:id="@+id/btVisitas"
         style="@style/Button"
         android:layout_marginTop="120dp"
         android:text="@string/Consultar_Visitas"

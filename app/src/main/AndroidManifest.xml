@@ -4,7 +4,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BrowseImoveis01">
+        <activity
+            android:name=".ListagemCasas"
+            android:exported="false" />
         <activity
             android:name=".CadastroActivity"
             android:exported="true" />
@@ -26,7 +28,7 @@
         </activity>
         <activity
             android:name=".MainSegundaTelaActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
