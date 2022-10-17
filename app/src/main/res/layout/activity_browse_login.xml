@@ -73,6 +73,7 @@
         <EditText
             android:id="@+id/edit_eye"
             style="@style/Edit_Text"
+            android:inputType="textPassword"
             android:drawableRight="@drawable/ic_eye"
             android:hint="Senha" />
 
