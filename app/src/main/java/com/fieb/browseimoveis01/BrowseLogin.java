@@ -53,7 +53,7 @@ public class BrowseLogin extends AppCompatActivity {
                     Snackbar.make(caixaEmail, "DIGITE UMA SENHA VÁLIDA!",
                             Snackbar.LENGTH_LONG).show();
                 } else {
-                    // fazer login firebase
+                    // fazer o login firebase
                     mAuth.signInWithEmailAndPassword(email, password)
                             .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
