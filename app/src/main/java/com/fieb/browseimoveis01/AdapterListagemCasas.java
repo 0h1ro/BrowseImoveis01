@@ -34,9 +34,20 @@ public class AdapterListagemCasas extends RecyclerView.Adapter<AdapterListagemCa
         holder.mItem = mListagem.get(position);
 
         if(position==0){
-            holder.imagemCasa.setImageResource(R.drawable.logo);
+            holder.imagemCasa.setImageResource(R.drawable.casapraia01);
         } else if (position == 1){
-            holder.imagemCasa.setImageResource(R.drawable.mikey);
+            holder.imagemCasa.setImageResource(R.drawable.apart01);
+        } else if (position == 2){
+            holder.imagemCasa.setImageResource(R.drawable.modelocasa01);
+        } else if (position == 3){
+            holder.imagemCasa.setImageResource(R.drawable.camp01);
+        } else if (position == 4){
+            holder.imagemCasa.setImageResource(R.drawable.resid01);
+        } else if (position == 5){
+            holder.imagemCasa.setImageResource(R.drawable.camp01);
+        } else if (position == 6){
+            holder.imagemCasa.setImageResource(R.drawable.camp01);
+
         }
 
         holder.nomeCasa.setText(mListagem.get(position).nome);
